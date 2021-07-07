@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0rem;
+}
+
+:root
+{
+--primary-color:#A78BFA;
+--secondary-color:black;
+--tertiary-color:#FCD34D;
+
+}
+
+.heading
+{
+   background-color: var(--primary-color);
+    padding: 2rem;
+  border-bottom-right-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+  margin-right: 1rem;
+  display: block;
+
+
+}
+
+h1
+{
+font-size: 2rem;
+font-weight: bolder;
+font-family: 'Krona One', sans-serif;
+
+}
+
+.content
+{
+    margin: auto;
+   
+    padding: 1rem;
+    max-width: auto;
+    text-align: center;
+ 
+    
+}
+
+.content-input
+{
+ background-color: black;
+        /* border-radius: 3.5rem 0rem 0rem 3.5rem; */
+       
+}
+
+#txt-input
+    {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        min-height: 20vh;
+        margin-top: 2rem;
+        font-size: large;
+        font-family: inherit;
+        padding: 1rem;
+       
+    }
+
+    #output
+{
+
+
+    box-sizing: border-box;
+   max-width: 100rem;
+    min-height: 10rem;
+    max-height: 50rem;
+   
+    border: 1px solid var(--secondary-color);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    font-size: large;
+    background-color: white;
+}
+
+#btn-translate
+{
+    background-color: var(--primary-color);
+  
+    border: none;
+
+    margin: 1rem 0rem;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+
+       
+}
