@@ -36,7 +36,7 @@ background-color: var(--secondary-color);
     margin-left: 2rem;
     display: block;
     margin-right: 12rem ;
-    
+
   }
 
  .heading-img
@@ -179,4 +179,12 @@ box-shadow: 0 7px 0 -2px #f85959,
     background-color: var(--secondary-color);
     color: wheat;
     padding: 3rem;
+}
+
+.foot-small
+{
+    text-align: right;
+    color: white;
+    padding: 1rem;
+    padding-right: 0.5rem;
 }
