@@ -32,18 +32,19 @@ background-color: var(--secondary-color);
 
   .heading-text
   {
-margin-right: 8rem;
-margin-left: 2rem;
+   
+    margin-left: 2rem;
+    display: block;
+    margin-right: 12rem ;
+    
   }
 
  .heading-img
  {
-margin-left: 12rem;
+    
 
-
+    margin-left: 8rem;
  }
-
-
 
 
 h1
@@ -85,6 +86,7 @@ padding-left: 1.5rem;
 padding-right: 1.5rem;
 padding-top: 1rem;
 padding-bottom: 1rem;
+margin-right: 0rem;
 
 
 
